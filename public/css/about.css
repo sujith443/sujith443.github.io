@@ -1,0 +1,23 @@
+.textAbout{
+    margin-left: 5% !important;
+}
+.aboutContext{
+    text-align: justify;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-fluid{
+    height: 30vmax;
+}
+
+@media(max-width:500px){
+
+    .aboutContext{
+        font-size: 1rem;
+        margin-left: 1%;
+        margin-top: 3%;
+    }
+}

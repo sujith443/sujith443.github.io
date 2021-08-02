@@ -1,0 +1,43 @@
+nav{
+    background: black;
+}
+#section1{
+    background: center url('/public/images/web.jpg') no-repeat;
+    height: 40vmax;
+    color: white;
+}
+.container>h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    padding-top: 15%;
+}
+.container>h2{
+    font-size: 6.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+.img-fluid{
+    margin-top: 20% !important;
+}
+.focus{
+    font-size: 4rem;
+    line-height: 1.3;
+    font-family:'Times New Roman', Times, serif;
+}
+.focus+p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+@media(max-width:500px){
+    #section1{
+        height: 30vmax;
+    }
+    .webText>h2{
+        font-size: 1.6rem;
+    }
+    .webText>h1{
+        font-size: 1.3rem;
+    }
+}
